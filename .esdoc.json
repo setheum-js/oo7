@@ -1,7 +1,7 @@
 {
   "source": "./packages",
   "destination": "./docs",
-	"excludes": ["/node_modules/", "/test/", "oo7-react/lib/index.js"],
+	"excludes": ["/node_modules/", "/test/", "oo7s-react/lib/index.js"],
   "plugins": [
 		{ "name": "esdoc-node" },
 		{

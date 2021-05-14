@@ -1,28 +1,28 @@
-# oo7 Suite
+# oo7s Suite
 
-[![Build Status](https://travis-ci.org/paritytech/oo7.svg?branch=master)](https://travis-ci.org/paritytech/oo7)
+[![Build Status](https://travis-ci.org/paritytech/oo7s.svg?branch=master)](https://travis-ci.org/paritytech/oo7s)
 
-[![npm:oo7](https://img.shields.io/npm/v/oo7.svg)](https://www.npmjs.com/package/oo7)
-[![npm:oo7-parity](https://img.shields.io/npm/v/oo7-parity.svg)](https://www.npmjs.com/package/oo7-parity)
-[![npm:oo7-react](https://img.shields.io/npm/v/oo7-react.svg)](https://www.npmjs.com/package/oo7-react)
+[![npm:oo7s](https://img.shields.io/npm/v/oo7s.svg)](https://www.npmjs.com/package/oo7s)
+[![npm:oo7s-parity](https://img.shields.io/npm/v/oo7s-parity.svg)](https://www.npmjs.com/package/oo7s-parity)
+[![npm:oo7s-react](https://img.shields.io/npm/v/oo7s-react.svg)](https://www.npmjs.com/package/oo7s-react)
 
 
-The `oo7` suite consists of three independent packages:
+The `oo7s` suite consists of three independent packages:
 
-- [oo7](./packages/oo7/) - Reactive Bonds
-- [oo7-parity](./packages/oo7-parity) - Bonds bindings for Ethereum objects
-- [oo7-react](./packages/oo7-react) - React components to display Bonds
+- [oo7s](./packages/oo7s/) - Reactive Bonds
+- [oo7s-parity](./packages/oo7s-parity) - Bonds bindings for Ethereum objects
+- [oo7s-react](./packages/oo7s-react) - React components to display Bonds
 
 # Documentation
 
-[Documentation](https://paritytech.github.io/oo7/class/packages/oo7-parity/src/index.js~Bonds.html#instance-member-accounts) to all three packages can be found [here](https://paritytech.github.io/oo7/)
+[Documentation](https://paritytech.github.io/oo7s/class/packages/oo7s-parity/src/index.js~Bonds.html#instance-member-accounts) to all three packages can be found [here](https://paritytech.github.io/oo7s/)
 
 # Examples
 
-### oo7
+### oo7s
 ```js
-// npm i oo7
-import {TimeBond} from 'oo7'
+// npm i oo7s
+import {TimeBond} from 'oo7s'
 
 
 // Initialize the bond
@@ -34,10 +34,10 @@ bond
 
 ```
 
-### oo7-parity
+### oo7s-parity
 ```js
-// npm i oo7-parity
-import {Bonds, formatBalance} from 'oo7-parity'
+// npm i oo7s-parity
+import {Bonds, formatBalance} from 'oo7s-parity'
 
 const bonds = Bonds()
 
@@ -46,14 +46,14 @@ bonds.balance(bonds.me)
     .tie(console.log) // 4.45 ETH
 ```
 
-### oo7-react
+### oo7s-react
 ```js
 import ReactDOM from 'react-dom'
 import React, { Component } from 'react'
 
 // Import reactive element
-import {Rspan} from 'oo7-react'
-import {Bonds, formatBalance} from 'oo7-parity'
+import {Rspan} from 'oo7s-react'
+import {Bonds, formatBalance} from 'oo7s-parity'
 
 const bonds = new Bonds()
 
