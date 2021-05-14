@@ -1,6 +1,6 @@
 const React = require('react')
-const {ReactiveComponent} = require('oo7-react')
-const {ss58Decode, ss58Encode} = require('oo7-substrate')
+const {ReactiveComponent} = require('oo7s-react')
+const {ss58Decode, ss58Encode} = require('oo7s-substrate')
 const {blake2b} = require('blakejs')
 
 const zero = blake2b(new Uint8Array([0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]))

@@ -1,6 +1,6 @@
 {
   "name": "polkadot-identicon",
-  "version": "1.1.45",
+  "version": "1.2.0",
   "description": "A Polkadot-themed SS58 identicon Bonded React component",
   "main": "lib/index.js",
   "files": [
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/paritytech/oo7.git"
+    "url": "git+https://github.com/paritytech/oo7s.git"
   },
   "keywords": [
     "polkadot",
@@ -25,15 +25,15 @@
   "author": "Parity Technologies <admin@parity.io>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/paritytech/oo7/issues"
+    "url": "https://github.com/paritytech/oo7s/issues"
   },
-  "homepage": "https://github.com/paritytech/oo7/tree/master/packages/polkadot-identicon#readme",
+  "homepage": "https://github.com/paritytech/oo7s/tree/master/packages/polkadot-identicon#readme",
   "types": "types.d.ts",
   "dependencies": {
     "blakejs": "^1.1.0",
-    "oo7": "^0.7.12",
-    "oo7-react": "^0.8.13",
-    "oo7-substrate": "^0.8.0",
+    "oo7s": "^0.7.12",
+    "oo7s-react": "^0.8.13",
+    "oo7s-substrate": "^0.8.0",
     "react": "^16.4.2",
     "ss58": "^1.0.0"
   },
